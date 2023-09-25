@@ -1,0 +1,267 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    width:100%;
+    background-color: #faf9f8;
+}
+.header{
+    width: 96%;
+    height: 100px;
+    display: flex;
+    margin-left: 2%;
+    /* border: 1px solid black; */
+}
+.hdr-left{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+.hdr-left ul li{
+   display: inline-block;
+   list-style: none;
+   margin-left: 15px;
+   font-size: 15px;
+   letter-spacing: 0.5px;
+   text-transform: capitalize;
+   cursor: pointer;
+
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-right: 320px;
+}
+.logo img{
+    width: 80px;
+}
+.hdr-right{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    margin-top: 50px;
+}
+.hdr-right li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 15px;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+
+}
+.hdr-right span{
+    margin-left: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.product-list{
+    width: 1100px;
+    height: 70px;
+    margin-left: 350px;
+    display: flex;
+    margin-top: 50px;
+    /* border: 1px solid black; */
+}
+.pr-list-cen{
+    width: 900px;
+    margin-right: 50px;
+}
+.pr-list-cen li{
+   display: inline-block;
+   margin-right: 30px;
+   font-size: 20px;
+   text-transform: capitalize;
+}
+.search-box{
+    display: flex;
+    width: 150px;
+    height: 30px;
+     border-bottom: 2px solid black;
+}
+.search-box input{
+    border: none;
+    margin-left: 10px;
+    text-transform: capitalize;
+    font-size: 15px;
+   
+}
+
+.blazer{
+    width: 60%;
+    height: 660px;
+    border: 1px solid #e4e4e4;
+    margin: auto;
+    background-image: url(https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/global_campaigns/season_08/men/3128/3128-v2-1x1-2-aw-2023-men.jpg]&scale=size[562]&sink=format[jpeg],quality[80]);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    
+}
+.blazer-1{
+    width: 60%;
+    height: 660px;
+    border: 1px solid #e4e4e4;
+    margin: auto;
+    background-image: url(https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/TOOLBOX/PRE_SEASON/2023_s08/september_2023/TCM8028_1x1.jpg]&scale=size[562]&sink=format[jpeg],quality[80]);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    
+}
+.blz-price{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-left: 400px;
+    margin-top: 200px;
+    
+   
+    
+   
+}
+/* .blz-price p{
+    margin-top: 50px;
+} */
+
+.blz-head{
+    margin-top: 100px;
+    margin-left: 350px;
+    color: white;
+    margin-bottom: 50px;
+}
+.blz-head h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.blz-head p{
+    margin-left: 80px;
+}
+.blazer button{
+    margin-left: 480px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    
+}
+.blazer-1 button{
+    margin-left: 480px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    
+}
+.wardrobe{
+    width: 60%;
+    height: 150px;
+    border: 1px solid #e4e4e4;
+    margin: auto;
+    background-image: url(https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/global_campaigns/season_08/ladies/1008/1008-3x1-alt-2-autumn-winter-2023-drop-1.jpg]&scale=size[960]&sink=format[jpeg],quality[80]);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.wrdb-head{
+    /* margin-left: 400px; */
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.wrdb-button{
+    text-align: center;
+}
+.wrdb-button button{
+    margin-right: 15px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+
+    /* position: relative; */
+}
+.wrdb-button button:hover{
+    /* position: absolute; */
+    background-color: grey;
+}
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 600px;
+    background-color: #e4e4e4;
+    border: 1px solid #e4e4e4;
+}
+.ft-combo{
+    width: 65%;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.ft-combo-li-1{
+    margin-right: 150px;
+}
+.ft-combo-li-2{
+    margin-right: 150px;
+}
+.ft-combo-li-3{
+    margin-right: 150px;
+}
+.ft-combo-li-4{
+    width: 150px;
+}
+.ft-combo-li-4 p{
+   margin-bottom: 50px;
+}
+.ft-combo-li-4 a{
+    color: black;
+}
+.ft-shop{
+    margin-bottom: 10px;
+}
+.ft-shop-list li{
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.ft-social{
+    width: 15%;
+    margin: auto;
+    margin-bottom: 30px;
+    
+}
+.ft-social i{
+    margin-right: 20px;
+}
+.ft-copyr{
+    width: 45%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.ft-logo{
+    width: 90px;
+    margin: auto;
+}
+.ft-logo img{
+    width: 50px;
+    margin-bottom: 30px;
+}
+.ft-logo h4{
+    margin-right: 10px;
+}
